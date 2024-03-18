@@ -31,8 +31,8 @@ header{
 
 ul{
     display: flex;
-    margin: 20px;
     justify-content: space-between;
+    margin-left: 40px;
 }
 
 li{
@@ -42,4 +42,13 @@ li{
 
 a{
     color: black;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;}
+
+.logo a{
+    color: darkred;
 }
