@@ -29,6 +29,10 @@ header{
     background-color: gray;
 }
 
+nav{
+    padding: 20px;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -51,4 +55,9 @@ a{
 
 .logo a{
     color: darkred;
+}
+
+h4{
+    border: 1px solid black;
+    margin: 10px;
 }
