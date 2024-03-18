@@ -22,7 +22,7 @@ h3{
 }
 
 header{
-    height: 100px;
+    height: 110px;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     align-items: center;
@@ -36,12 +36,16 @@ nav{
 ul{
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
+    margin: 0px 20px 0px 20px
 }
 
 li{
     list-style: none;
     display: flex;
+}
+
+li a{
+    font-size: 20px;
 }
 
 a{
@@ -55,9 +59,26 @@ a{
 
 .logo a{
     color: darkred;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.sign-in{
+    display: flex;
+    justify-content: center;
 }
 
 h4{
     border: 1px solid black;
-    margin: 10px;
+    padding: 10px;
+    background-color: darkslategray;
+    border-radius: 50px;
+}
+
+h4 a{
+    color: white;
+    font-size: 30px;
+
 }
