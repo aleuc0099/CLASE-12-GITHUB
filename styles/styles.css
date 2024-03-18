@@ -1,0 +1,22 @@
+*{padding: 0;margin: 0;box-sizing: border-box;text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1{
+color: white;
+background-color: darkred;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 20px 0px 20px 0px;
+    background-color: darkgray;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+h3{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
